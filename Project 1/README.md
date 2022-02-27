@@ -3,4 +3,4 @@
 
 ### Dependencies 
 * OpenCV  -  ` python pip install opencv`
-* Numpy   -  `python pip install numpy
+* Numpy   -  `python pip install numpy`
