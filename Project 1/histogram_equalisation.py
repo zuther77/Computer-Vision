@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
+import sys
 
 
 def generate_hist(img, bins):  # to make a histogram (count distribution frequency)
@@ -48,7 +49,8 @@ def histogram_equalization(img, hist,N):
 
 
 if __name__ == '__main__':
-    img = cv2.imread('8_gray.png',0)
+    
+    img = cv2.imread(sys.argv[1],0)
     h,w = img.shape[:2]
 
 
